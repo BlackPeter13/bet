@@ -29,7 +29,7 @@ jobs:
         python python3 python3-mako zip libevent-dev pkg-config \
         libssl-dev libcurl4-gnutls-dev make libboost-all-dev automake \
         jq wget ninja-build libsqlite3-dev libgmp3-dev valgrind libcli-dev \
-        libsecp256k1-dev libsodium-dev libbase58-dev nano
+        libsecp256k1-dev libsodium-dev libbase58-dev nano libstdc++6:armhf
       
     - name: Installing Ninja
       run: sudo apt install ninja-build
